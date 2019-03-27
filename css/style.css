@@ -1,0 +1,55 @@
+body {
+  background-color:  #dc3a45;
+  font-size: 1.5em;
+}
+
+.btn {
+  margin: 0px;
+  width: 25%;
+  height: 80px;
+  font-weight: bold;
+}
+
+#display {
+  height: 80px;
+  font-size: 2.5rem;
+  background-color: #2d3447;
+}
+
+#display1 {
+  height: 80px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: #2d3447;
+}
+
+#showTotal {
+  background-color: #f13f4b;
+  border-bottom-right-radius: 20px;
+  border-right-color: #f13f4b;
+  border-bottom-color: #f13f4b;
+}
+
+#zero {
+  border-bottom-left-radius: 20px;
+}
+
+.unos {
+  background-color: #f4f5f9;
+}
+
+.sign {
+  background-color: #dcdfe6;
+}
+
+.d-flex > .btn.btn-lg {
+  border-radius: 0px;
+  margin: 0;
+  border:white 1px solid;
+}
+
+#equal-sign {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #2d3447;
+}
