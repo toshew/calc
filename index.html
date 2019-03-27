@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Calc</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-lg-4 col-md-5 col-sm-8 col-xs-10 mx-auto m-0 p-0">
+                <form > 
+                    <div class="d-flex flex-column col-hl">
+                        <div class="pt-4 pr-3 item-hl text-right text-muted" id="display1"></div>
+                        <div class="d-flex item-hl flex-row row-hl">
+                            <div id="equal-sign" class="pt-4 text-light text-center item-hl font-weight-bold w-25">=</div>
+                            <div class="py-3 pr-3 text-light item-hl text-right w-75"  id="display">
+                        </div> 
+                    </div>
+                    
+                    <div class="d-flex flex-column col-hl"></div>
+                        <div class="item-hl d-flex">
+                            <input class="btn btn-lg sign font-weight-normal" id="reset" type="button" value="AC">
+                            <input class="btn btn-lg sign font-weight-normal" id="plus-minus" type="button" value="+/-">
+                            <input class="btn btn-lg unos sign font-weight-normal" type="button" value="%">
+                            <input class="btn btn-lg unos sign" type="button" value="*">
+                        </div>
+                        <div class="item-hl d-flex">
+                            <input class="btn btn-lg unos" type="button" value="7">
+                            <input class="btn btn-lg unos" type="button" value="8">
+                            <input class="btn btn-lg unos" type="button" value="9">
+                            <input class="btn btn-lg unos sign" type="button" value="/">
+                        </div>
+                        <div class="item-hl d-flex">
+                            <input class="btn btn-lg unos" type="button" value="4">
+                            <input class="btn btn-lg unos" type="button" value="5">
+                            <input class="btn btn-lg unos" type="button" value="6">
+                            <input class="btn btn-lg unos sign" type="button" value="-">
+                        </div>
+                        <div class="item-hl d-flex">
+                            <input class="btn btn-lg unos" type="button" value="1">
+                            <input class="btn btn-lg unos" type="button" value="2">
+                            <input class="btn btn-lg unos" type="button" value="3">
+                            <input class="btn btn-lg unos sign" type="button" value="+">
+                        </div>
+                        <div class="item-hl d-flex">
+                            <input class="btn btn-lg unos w-50" id="zero" type="button" value="0">
+                            <input class="btn btn-lg unos" type="button" value=".">
+                            <input class="btn btn-lg sign text-light" id="showTotal" type="button" value="=">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
