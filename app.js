@@ -21,10 +21,10 @@
   function showResult(e) {
     if (display1.textContent.includes('%')) {
       let percent = display1.textContent.replace('%', '*(1/100)');
-      display.textContent = eval(percent).toFixed(7);
+      display.textContent = eval(percent);
       e.target.blur();
     }
-    display.textContent = eval(display1.textContent).toFixed(7);
+    display.textContent = eval(display1.textContent);
     e.target.blur();
   }
 
